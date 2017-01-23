@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/write_daily"
+            android:icon="@drawable/write"
+            android:title="Write now" />
+        <item
+            android:id="@+id/show_hidden"
+            android:icon="@drawable/hide"
+            android:title="Show hidden" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Tell a friend" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_us"
+                android:title="Rate us" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Support the developers" />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/about_us"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/help"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
